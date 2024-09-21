@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap');
+
+.pokebody {
+  font-family: "Lemonada";
+  color: #212529;
+  background: #abbaab;
+  background: linear-gradient(to right, #d0ece7, #edeed8);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+}
+
+.poke-index {
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+
+.poke-index div {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 2px;
+  font-weight: bold;
+  transition: all 0.2s;
+  user-select: none;
+}
+
+.poke-index button {
+  background: transparent;
+  color: #464646;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  height: 28px;
+  width: 36px;
+  border: 3px solid #464646;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.current-page {
+	color: whitesmoke;
+	background: #464646;
+	border-radius: 3px;
+}
+
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.pokemon-card {
+  background: linear-gradient(150deg, rgb(238, 129, 48) 50%, rgb(169, 143, 243) 50%);
+  height: 300px;
+  width: 185px;
+  border-radius: 20px;
+}
+
+.pokemon-image {
+  margin-top: 3px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  width: 163px;
+}
+
+.poke-id {
+  margin: 0;
+  font-family: 'Lemonada', sans-serif;
+  position: relative;
+  top: -15%;
+  left: 49%;
+  font-size: x-large;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.poke-name {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Lemonada', sans-serif;
+  text-align: center;
+  position: relative;
+  top: -15%;
+}
+
+.poke-type {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  font-family: 'Lemonada', sans-serif;
+  position: relative;
+  top: -15%;
+}
+
+dialog::backdrop {
+  background-color: black;
+}
+
+.pokemon-description-card {
+  background: linear-gradient(150deg, rgb(238, 129, 48) 50%, rgb(169, 143, 243) 50%);
+  height: 300px;
+  width: 185px;
+  border-radius: 20px;
+}
+
+.pokemon-description-image {
+  margin-top: 3px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  width: 163px;
+}
+
+.poke-description-id {
+  margin: 0;
+  font-family: 'Lemonada', sans-serif;
+  position: relative;
+  top: -15%;
+  left: 49%;
+  font-size: x-large;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.poke-description-name {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Lemonada', sans-serif;
+  text-align: center;
+  position: relative;
+  top: -15%;
+}
+
+.poke-description-type {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  font-family: 'Lemonada', sans-serif;
+  position: relative;
+  top: -15%;
+}
+
+.search-box-container {
+	align-self: center;
+	width: 50%;
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.search-box {
+	width: 100%;
+	border: none;
+	background: transparent;
+	outline: none;
+	font-size: 1.1rem;
+	font-weight: bold;
+	border-bottom: 3px solid rgb(0, 0, 0, 0.9);
+	padding-bottom: 5px;
+}
